@@ -7,7 +7,7 @@ part of 'counter.controller.dart';
 // **************************************************************************
 
 String _$counterControllerProviderHash() =>
-    r'91e51c30863ec25d7e2154ba63bb2e92bc332352';
+    r'87dc3976fdf7ab40b839ffc095fc6f666af66062';
 
 /// See also [CounterControllerProvider].
 @ProviderFor(CounterControllerProvider)

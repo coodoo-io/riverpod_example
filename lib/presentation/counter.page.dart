@@ -40,7 +40,9 @@ class CounterPage extends ConsumerWidget {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => ref.read(counterControllerProviderProvider.notifier).incrementCounter(),
+        onPressed: () => ref
+            .read(counterControllerProviderProvider.notifier)
+            .incrementCounter(),
         tooltip: 'Increment',
         child: const Icon(Icons.add),
       ),
